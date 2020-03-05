@@ -81,3 +81,4 @@ And to update notebooks, navigate to the *Workshop* directory in your terminal a
 ```
 git pull
 ```
+A text editor may appear in your terminal or window with some text about accepting a merge. Just save the file and close it.
