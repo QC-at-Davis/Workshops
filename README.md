@@ -7,6 +7,8 @@ A single repository for all Quantum Computing at Davis (QCaD) workshops.
   * A gentle introduction to the qubit and its manipulation through single gates
 * 2 __Multiple Qubit Gates__
   * Framework of knowledge for multiple qubit operations is introduced
+* 3 __Intro to Qiskit__
+  * First introduction to using IBM's Quantum Information Science Kit for Quantum Computing
 
 ## Usage
 
@@ -24,6 +26,19 @@ git --version
 You should see some output about the version of git installed.
 
 Also make sure that Docker is running in the background while all this is happening.
+
+#### Windows 10 Home Edition User Warning
+
+Unfortunately, Docker is not compatible with computers running Windows 10 Home Edition.
+
+There are two options to work around this.
+
+The first method is to install [Docker Toolbox](https://github.com/docker/toolbox/releases). Although this is the easiest way to get things working, keep in mind that Docker Toolbox is considered legacy software and will lose support over time. 
+
+A safer alternative is to create a Virtual Machine on your computer running Linux (Ubuntu is a safe choice) and then install Docker for Linux inside THAT virtual machine. 
+
+As long as the virtual machine has `git` as well as a browser of some sort (Firefox, Chrome, etc.), you can follow along with the instructions below and run the workshops.
+
 
 ### Running in Hephaestus
 1. Create a folder on your computer through the terminal and inside the folder run:
